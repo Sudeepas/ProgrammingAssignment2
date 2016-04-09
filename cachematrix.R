@@ -2,10 +2,6 @@
 ## which means that the inverse of a matrix will only be
 ## calculated if the value doesn't already exist in the cache
 
-## This function creates a vector which is a list of functions
-## to set the value of the matrix, get the value of the matrix,
-## set the value of the inverse and get the value of the inverse
-
 makeCacheMatrix <- function(x = matrix()) {
   xinverse <- NULL
   set <- function(y){
